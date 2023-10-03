@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(210, 245, 245);
+  font-family: "Poppins", sans-serif;
+}
+
+.mainContainer {
+  width: calc(40vw + 250px);
+  min-height: 90vh;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.mainContainer .resume-Box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainContainer .resume-Box .left-side {
+  width: 40%;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.mainContainer .resume-Box .left-side .image {
+  width: 150px;
+}
+.mainContainer .resume-Box .left-side .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 40px 40px 40px 0px;
+}
+.mainContainer .resume-Box .left-side .information p {
+  font-size: calc(0.4vw + 6px);
+  color: rgb(242, 242, 246);
+  text-align: justify;
+}
+.mainContainer .resume-Box .left-side .languageKnown ul li {
+  list-style-type: none;
+  width: 90%;
+  background-color: silver;
+  margin-bottom: 3px;
+  font-size: calc(0.4vw + 8px);
+  padding: 3px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  border-radius: 40px;
+  text-align: center;
+}
+.mainContainer .resume-Box .left-side .languageKnown ul li p {
+  background-color: white;
+  border-radius: 40px;
+}
+.mainContainer .resume-Box .left-side .languageKnown ul li .english {
+  width: 95%;
+}
+.mainContainer .resume-Box .left-side .languageKnown ul li .hindi {
+  width: 95%;
+}
+.mainContainer .resume-Box .left-side .languageKnown ul li .regional {
+  width: 100%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li {
+  list-style-type: none;
+  width: 90%;
+  background-color: silver;
+  margin-bottom: 3px;
+  font-size: calc(0.4vw + 8px);
+  padding: 3px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  border-radius: 40px;
+  text-align: center;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li p {
+  background-color: white;
+  border-radius: 40px;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .html {
+  width: 90%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .css {
+  width: 75%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .java {
+  width: 85%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .react {
+  width: 60%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .c {
+  width: 90%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .dsa {
+  width: 70%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .problem {
+  width: 90%;
+}
+.mainContainer .resume-Box .left-side .skillsKnown ul li .bootstrap {
+  width: 70%;
+}
+.mainContainer .resume-Box .left-side h4 {
+  margin-bottom: 6px;
+  margin-top: 13px;
+}
+.mainContainer .resume-Box .right-side {
+  width: 60%;
+  background-image: linear-gradient(to right, #fffbd5, #b8b8b8);
+  border-radius: 50px 50px 50px 50px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mainContainer .resume-Box .right-side h1 {
+  font-size: calc(2.2vw + 12px);
+  font-family: "Poppins", sans-serif;
+  line-height: 0.8;
+}
+.mainContainer .resume-Box .right-side h1 span {
+  color: red;
+}
+.mainContainer .resume-Box .right-side h3 {
+  font-size: calc(1vw + 8px);
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid rgb(102, 102, 102);
+  padding-top: 20px;
+  padding-bottom: 3px;
+  margin-bottom: 8px;
+  color: rgb(61, 61, 61);
+}
+.mainContainer .resume-Box .right-side h3 span {
+  color: rgb(151, 151, 151);
+}
+.mainContainer .resume-Box .right-side .profession {
+  color: rgb(97, 97, 97);
+}
+.mainContainer .resume-Box .right-side .myEduactions small {
+  color: rgb(97, 97, 97);
+}
+.mainContainer .resume-Box .right-side .certifications p a {
+  color: black;
+}
+.mainContainer .resume-Box .right-side .myProjects p a {
+  color: black;
+}
+.mainContainer .resume-Box .right-side .WorkExperience small {
+  color: rgb(97, 97, 97);
+}
+.mainContainer .resume-Box .right-side .WorkExperience p a {
+  color: rgb(7, 7, 7);
+}/*# sourceMappingURL=style.css.map */
